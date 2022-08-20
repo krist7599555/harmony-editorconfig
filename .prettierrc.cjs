@@ -1,5 +1,3 @@
-const path = require('node:path');
-
 module.exports = {
   arrowParens: 'avoid',
   overrides: [
@@ -12,9 +10,9 @@ module.exports = {
     },
   ],
   plugins: [
-    path.resolve('./node_modules/prettier-plugin-packagejson'),
-    path.resolve('./node_modules/prettier-plugin-svelte'),
-    path.resolve('./node_modules/prettier-plugin-tailwindcss'),
+    './node_modules/prettier-plugin-packagejson',
+    './node_modules/prettier-plugin-svelte',
+    './node_modules/prettier-plugin-tailwindcss',
   ],
   printWidth: 100,
   semi: true,
