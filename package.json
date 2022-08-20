@@ -1,9 +1,10 @@
 {
   "name": "@krist7599555/harmony-editorconfig",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "centralize config for `eslint`, `prettier`, `taliwindcss`, `svelte`",
   "keywords": [
-    "eslint", "prettier"
+    "eslint",
+    "prettier"
   ],
   "license": "ISC",
   "author": "Krist Ponpairin <krist7599555>",
