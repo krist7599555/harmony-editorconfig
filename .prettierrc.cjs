@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   arrowParens: "avoid",
   jsonRecursiveSort: true,
   overrides: [
