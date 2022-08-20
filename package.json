@@ -26,5 +26,21 @@
     "prettier-plugin-tailwindcss": "^0.1.13",
     "svelte": "^3.49.0",
     "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-simple-import-sort": "*",
+    "eslint-plugin-svelte3": "*",
+    "eslint-plugin-unused-imports": "*",
+    "prettier": "*",
+    "prettier-plugin-packagejson": "*",
+    "prettier-plugin-svelte": "*",
+    "prettier-plugin-tailwindcss": "*",
+    "svelte": "*",
+    "typescript": "*"
   }
 }
