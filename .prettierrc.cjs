@@ -1,28 +1,30 @@
+const path = require('node:path');
+
 module.exports = {
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
   jsonRecursiveSort: true,
   overrides: [
-    { files: "*.svelte", options: { parser: "svelte" } },
+    { files: '*.svelte', options: { parser: 'svelte' } },
     {
-      files: "*.ts",
+      files: '*.ts',
       options: {
-        parser: "babel-ts",
+        parser: 'babel-ts',
       },
     },
   ],
   plugins: [
-    "./node_modules/prettier-plugin-packagejson",
-    "./node_modules/prettier-plugin-svelte",
-    "./node_modules/prettier-plugin-tailwindcss",
+    path.resolve('./node_modules/prettier-plugin-packagejson'),
+    path.resolve('./node_modules/prettier-plugin-svelte'),
+    path.resolve('./node_modules/prettier-plugin-tailwindcss'),
   ],
   printWidth: 100,
   semi: true,
   singleQuote: true,
   svelteAllowShorthand: false,
   svelteIndentScriptAndStyle: false,
-  svelteSortOrder: "options-scripts-markup-styles",
+  svelteSortOrder: 'options-scripts-markup-styles',
   svelteStrictMode: false,
   tabWidth: 2,
-  trailingComma: "es5",
+  trailingComma: 'es5',
   useTabs: false,
 };
