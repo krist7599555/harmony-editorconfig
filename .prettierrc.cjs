@@ -2,7 +2,6 @@ const path = require('node:path');
 
 module.exports = {
   arrowParens: 'avoid',
-  jsonRecursiveSort: true,
   overrides: [
     { files: '*.svelte', options: { parser: 'svelte' } },
     {
