@@ -1,6 +1,6 @@
 {
   "name": "@krist7599555/harmony-editorconfig",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "centralize config for `eslint`, `prettier`, `taliwindcss`, `svelte`",
   "keywords": [
     "eslint",
