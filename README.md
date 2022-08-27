@@ -2,7 +2,7 @@
 
 is inspire from [harmony](https://github.com/haydenbleasel/harmony) to centralize config for `eslint`, `prettier`, `taliwindcss`, `svelte`
 
-```json
+```jsonc
 // .vscode/settings.json
 {
   "editor.formatOnSave": true,
