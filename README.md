@@ -30,3 +30,9 @@ module.exports = {
   ...require('./node_modules/@krist7599555/harmony-editorconfig/.prettierrc.cjs'),
 };
 ```
+```javascript
+// postcss.config.cjs
+module.exports = {
+  ...require('./node_modules/@krist7599555/harmony-editorconfig/postcss.config.cjs'),
+};
+```
