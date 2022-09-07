@@ -30,9 +30,22 @@ module.exports = {
   ...require('./node_modules/@krist7599555/harmony-editorconfig/.prettierrc.cjs'),
 };
 ```
+
 ```javascript
 // postcss.config.cjs
 module.exports = {
   ...require('./node_modules/@krist7599555/harmony-editorconfig/postcss.config.cjs'),
+};
+```
+
+```javascript
+// tailwind.config.cjs
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{svelte,ts,html}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
 ```
